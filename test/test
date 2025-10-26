@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MESSAGE 
+    xmlns="http://www.mismo.org/residential/2009/schemas"
+    MISMOReferenceModelIdentifier="3.4.0">
+
+    <ABOUT_VERSIONS>
+        <ABOUT_VERSION>
+            <DataVersionIdentifier>3.4.0</DataVersionIdentifier>
+            <DataVersionName>MISMO Version 3.4</DataVersionName>
+        </ABOUT_VERSION>
+    </ABOUT_VERSIONS>
+
+    <DEAL_SETS>
+        <DEAL_SET>
+            <DEALS>
+                <DEAL>
+                    <PARTIES>
+                        <PARTY>
+                            <INDIVIDUAL>
+                                <NAME>
+                                    <FirstName>Jordan</FirstName>
+                                    <MiddleName>Michael</MiddleName>
+                                    <LastName>Reyes</LastName>
+                                    <SuffixName>Jr.</SuffixName>
+                                </NAME>
+                                <BirthDate>1985-08-15</BirthDate>
+                                <CitizenshipResidencyType>USCitizen</CitizenshipResidencyType>
+                                <MaritalStatusType>Unmarried</MaritalStatusType>
+                                <DependentCount>2</DependentCount>
+                                <DependentAgeYears>6,9</DependentAgeYears>
+                            </INDIVIDUAL>
+
+                            <CONTACT_POINTS>
+                                <CONTACT_POINT>
+                                    <ContactPointRoleType>HomePhone</ContactPointRoleType>
+                                    <ContactPointValue>5551234567</ContactPointValue>
+                                </CONTACT_POINT>
+                                <CONTACT_POINT>
+                                    <ContactPointRoleType>CellPhone</ContactPointRoleType>
+                                    <ContactPointValue>5559876543</ContactPointValue>
+                                </CONTACT_POINT>
+                                <CONTACT_POINT>
+                                    <ContactPointRoleType>WorkPhone</ContactPointRoleType>
+                                    <ContactPointValue>5554567890</ContactPointValue>
+                                </CONTACT_POINT>
+                                <CONTACT_POINT>
+                                    <ContactPointRoleType>Email</ContactPointRoleType>
+                                    <ContactPointValue>jordan.reyes@example.com</ContactPointValue>
+                                </CONTACT_POINT>
+                            </CONTACT_POINTS>
+
+                            <ADDRESSES>
+                                <ADDRESS>
+                                    <AddressType>Current</AddressType>
+                                    <AddressLineText>123 Elm Street, Apt 4B</AddressLineText>
+                                    <CityName>Chicago</CityName>
+                                    <StateCode>IL</StateCode>
+                                    <PostalCode>60614</PostalCode>
+                                    <CountryName>USA</CountryName>
+                                    <AddressUsageType>Mailing</AddressUsageType>
+                                    <RentAmount>1200</RentAmount>
+                                </ADDRESS>
+                                <ADDRESS>
+                                    <AddressType>Former</AddressType>
+                                    <AddressLineText>456 Oak Avenue</AddressLineText>
+                                    <CityName>Springfield</CityName>
+                                    <StateCode>IL</StateCode>
+                                    <PostalCode>62704</PostalCode>
+                                    <CountryName>USA</CountryName>
+                                </ADDRESS>
+                            </ADDRESSES>
+
+                            <EMPLOYERS>
+                                <EMPLOYER>
+                                    <Name>Apex Solutions Inc.</Name>
+                                    <EmploymentBorrowerSelfEmployedIndicator>true</EmploymentBorrowerSelfEmployedIndicator>
+                                    <EmploymentStatusType>Current</EmploymentStatusType>
+                                    <EmploymentStartDate>2018-06-01</EmploymentStartDate>
+                                    <Address>
+                                        <AddressLineText>789 Tech Park Blvd Suite</AddressLineText>
+                                        <CityName>Chicago</CityName>
+                                        <StateCode>IL</StateCode>
+                                        <PostalCode>60616</PostalCode>
+                                        <CountryName>USA</CountryName>
+                                    </Address>
+                                    <EmploymentPositionDescription>Senior Systems Analyst</EmploymentPositionDescription>
+                                    <EmploymentIncome>
+                                        <EmploymentIncomeType>Base</EmploymentIncomeType>
+                                        <EmploymentIncomeMonthlyTotalAmount>6500</EmploymentIncomeMonthlyTotalAmount>
+                                    </EmploymentIncome>
+                                    <EmploymentIncome>
+                                        <EmploymentIncomeType>Overtime</EmploymentIncomeType>
+                                        <EmploymentIncomeMonthlyTotalAmount>250</EmploymentIncomeMonthlyTotalAmount>
+                                    </EmploymentIncome>
+                                    <EmploymentIncome>
+                                        <EmploymentIncomeType>Bonus</EmploymentIncomeType>
+                                        <EmploymentIncomeMonthlyTotalAmount>500</EmploymentIncomeMonthlyTotalAmount>
+                                    </EmploymentIncome>
+                                    <EmploymentIncome>
+                                        <EmploymentIncomeType>Commission</EmploymentIncomeType>
+                                        <EmploymentIncomeMonthlyTotalAmount>250</EmploymentIncomeMonthlyTotalAmount>
+                                    </EmploymentIncome>
+                                </EMPLOYER>
+
+                                <EMPLOYER>
+                                    <Name>Freelance Tech Consulting</Name>
+                                    <EmploymentBorrowerSelfEmployedIndicator>true</EmploymentBorrowerSelfEmployedIndicator>
+                                    <EmploymentStatusType>Current</EmploymentStatusType>
+                                    <EmploymentStartDate>2022-01-01</EmploymentStartDate>
+                                    <Address>
+                                        <AddressLineText>321 Remote Lane</AddressLineText>
+                                        <CityName>Denver</CityName>
+                                        <StateCode>CO</StateCode>
+                                        <PostalCode>80205</PostalCode>
+                                        <CountryName>USA</CountryName>
+                                    </Address>
+                                    <EmploymentIncome>
+                                        <EmploymentIncomeType>Base</EmploymentIncomeType>
+                                        <EmploymentIncomeMonthlyTotalAmount>1200</EmploymentIncomeMonthlyTotalAmount>
+                                    </EmploymentIncome>
+                                </EMPLOYER>
+
+                                <EMPLOYER>
+                                    <Name>ByteWorks Inc.</Name>
+                                    <EmploymentStatusType>Previous</EmploymentStatusType>
+                                    <EmploymentStartDate>2015-03-01</EmploymentStartDate>
+                                    <EmploymentEndDate>2018-05-31</EmploymentEndDate>
+                                    <Address>
+                                        <AddressLineText>222 Code Street</AddressLineText>
+                                        <CityName>Boulder</CityName>
+                                        <StateCode>CO</StateCode>
+                                        <PostalCode>80301</PostalCode>
+                                        <CountryName>USA</CountryName>
+                                    </Address>
+                                    <EmploymentIncome>
+                                        <EmploymentIncomeType>Base</EmploymentIncomeType>
+                                        <EmploymentIncomeMonthlyTotalAmount>5800</EmploymentIncomeMonthlyTotalAmount>
+                                    </EmploymentIncome>
+                                </EMPLOYER>
+                            </EMPLOYERS>
+
+                            <INCOMES>
+                                <INCOME>
+                                    <IncomeType>InterestAndDividends</IncomeType>
+                                    <MonthlyTotalAmount>150</MonthlyTotalAmount>
+                                </INCOME>
+                                <INCOME>
+                                    <IncomeType>SocialSecurity</IncomeType>
+                                    <MonthlyTotalAmount>200</MonthlyTotalAmount>
+                                </INCOME>
+                            </INCOMES>
+                        </PARTY>
+                    </PARTIES>
+
+                    <RELATIONSHIPS>
+                        <RELATIONSHIP>
+                            <RELATED_ENTITY_DETAIL>
+                                <RelationshipRoleType>Borrower</RelationshipRoleType>
+                            </RELATED_ENTITY_DETAIL>
+                        </RELATIONSHIP>
+                    </RELATIONSHIPS>
+
+                    <SERVICES/>
+                    <SUPPORTING_RECORD_SETS/>
+                </DEAL>
+            </DEALS>
+        </DEAL_SET>
+    </DEAL_SETS>
+
+</MESSAGE>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MESSAGE 
+    xmlns="http://www.mismo.org/residential/2009/schemas"
+    MISMOReferenceModelIdentifier="3.4.0">
+
+    <ABOUT_VERSIONS>
+        <ABOUT_VERSION>
+            <DataVersionIdentifier>3.4.0</DataVersionIdentifier>
+            <DataVersionName>MISMO Version 3.4</DataVersionName>
+        </ABOUT_VERSION>
+    </ABOUT_VERSIONS>
+
+    <DEAL_SETS>
+        <DEAL_SET>
+            <DEALS>
+                <DEAL>
+                    <PARTIES>
+                        
+                        <PARTY>
+                            <INDIVIDUAL>
+                                <NAME>
+                                    <FirstName></FirstName>
+                                    <LastName></LastName>
+                                </NAME>
+                            </INDIVIDUAL>
+                        </PARTY>
+                       
+                    </PARTIES>
+
+                    <RELATIONSHIPS>
+                        
+                        <RELATIONSHIP>
+                            <RELATED_ENTITY_DETAIL>
+                                <RelationshipRoleType>Borrower</RelationshipRoleType>
+                            </RELATED_ENTITY_DETAIL>
+                        </RELATIONSHIP>
+                       
+                    </RELATIONSHIPS>
+
+                    <SERVICES/>
+                    <SUPPORTING_RECORD_SETS/>
+                </DEAL>
+            </DEALS>
+        </DEAL_SET>
+    </DEAL_SETS>
+
+</MESSAGE>
