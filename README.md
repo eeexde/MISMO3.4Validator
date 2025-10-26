@@ -19,14 +19,10 @@ Clone this repository:
 git clone https://github.com/eeexde/MISMO3.4Validator.git
 cd MISMO3.4Validator
 
-
 Create a virtual environment (recommended):
-
-```python -m venv venv
+python -m venv venv
 source venv/bin/activate       # On macOS/Linux
 venv\Scripts\activate          # On Windows
 
-
 Install dependencies:
-`pip install lxml`
-
+pip install lxml
